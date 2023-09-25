@@ -1,7 +1,7 @@
 ; installer.nsi
 
 Outfile "Installer.exe"
-InstallDir $TEMP\Goose_Installer
+InstallDir $PROGRAMFILES\Goose_Installer
 RequestExecutionLevel admin
 
 Section "MainSection" SecMain
