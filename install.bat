@@ -3,7 +3,7 @@ echo Installing DesktopGoose...
 
 REM Define source and destination folders
 set sourcefolder=%~dp0gize
-set destfolder=%APPDATA%\Local\DesktopGoose
+set destfolder=%APPDATA%\Local\gizeee
 
 REM Copy the necessary files from "gize" to "%APPDATA%\Local"
 xcopy /y "%sourcefolder%\*" "%destfolder%\"

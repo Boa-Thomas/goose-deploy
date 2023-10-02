@@ -18,6 +18,6 @@ Section "MainSection" SecMain
     File /r "gize\*.*"
 
     ; Run installer.bat
-    ExecWait '"$INSTDIR\installer.bat"'
+    ExecWait '"$INSTDIR\install.bat"'
 
 SectionEnd
